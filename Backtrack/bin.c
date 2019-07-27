@@ -16,7 +16,7 @@ void try(int *x, int n, int i) {
 
 void bin(int n) {
     if (n <= 0) return;
-    int *x = (int*)calloc(sizeof(int), n);
+    int *x = (int*)calloc(n, sizeof(int));
     try(x, n, 0);
     free(x);
 }
