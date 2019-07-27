@@ -2,7 +2,7 @@
 
 void subSet(int* set, int n, int k) {
     if (n <= 0 || k <= 0) return;
-    char x[100] = {0};
+    char *x = (char*)calloc(n, 1);
     for (int i = 0; i < k; i++) x[i] = i;
     while (1) {
         printf("{");
@@ -20,6 +20,7 @@ void subSet(int* set, int n, int k) {
         for (int j = i + 1; j < k; j++)
             x[j] = x[j - 1] + 1;
     }
+    free(x);
 }
 
 int main() {
