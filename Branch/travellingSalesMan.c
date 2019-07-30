@@ -32,6 +32,7 @@ void tryTour(int *x, int *bestWay, int *t, int **c, int *f, int n, int *minSpend
 void travelling() {
     int n = 0, m = 0;
     scanf("%d %d", &n, &m);
+    if (n <= 1 || m <= 0) return;
     int minSpending = __INT_MAX__;
     int *x = (int*)calloc(n, sizeof(int));
     int *bestWay = (int*)malloc(n * sizeof(int));
