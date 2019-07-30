@@ -9,7 +9,7 @@ I am learning programming and algorithms in Le Minh Hoang's book to prepare for 
 
 * [Method for generating](Generation)
 * [Backtracking](Backtrack)
-* Branch and Bound
+* [Branch and Bound](Branch)
 
 ### PART 2 - DATA STRUCTURE AND ALGORITHM
 
