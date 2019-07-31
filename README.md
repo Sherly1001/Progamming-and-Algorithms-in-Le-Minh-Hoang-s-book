@@ -2,6 +2,7 @@
 
 I am learning programming and algorithms in Le Minh Hoang's book to prepare for next course in my school. I have created this repo to save my code by C programming language.
 
+View or download book in [here](https://www.dropbox.com/s/cqp9hd577tanul6/Le-Minh-Hoang-Giai-thuat%26Lap-trinh.pdf?dl=0)
 
 <h1 align="center">Contents</h1>
 
