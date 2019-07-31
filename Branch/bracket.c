@@ -5,12 +5,12 @@ int depth(int *x, int n) {
     if (x[0] || n < 0) return -1;
     if (n == 0) return 0;
     int d = 0, flag = 0;
-    for (int i = 1; i < n; i++) {
+    for (int i = 0; i < n; i++) {
         if (d == flag && !x[i]) d++;
         if (x[i]) flag--;
         else flag++;
     }
-    return d + 1;
+    return d;
 }
 
 void printResult(const char *ch, int *x, int n) {
