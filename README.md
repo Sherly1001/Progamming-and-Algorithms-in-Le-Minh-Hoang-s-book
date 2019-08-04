@@ -16,7 +16,7 @@ View or download book in [here](https://www.dropbox.com/s/cqp9hd577tanul6/Le-Min
 
 * Basic steps when solving math problems
 * Analysis of algorithm execution time
-* Recursion and recursive algorithm
+* [Recursion and recursive algorithm](Recursion)
 * Data structure represents list
 * Stacks and queues
 * Tree
