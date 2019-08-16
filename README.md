@@ -18,7 +18,7 @@ View or download book in [here](https://www.dropbox.com/s/cqp9hd577tanul6/Le-Min
 * Analysis of algorithm execution time
 * [Recursion and recursive algorithm](Recursion)
 * [Data structure represents list](LinkedList)
-* Stacks and queues
+* [Stacks and queues](Stacks and Queues)
 * Tree
 * Prefix, intermediate and suffix notation
 * Sort
