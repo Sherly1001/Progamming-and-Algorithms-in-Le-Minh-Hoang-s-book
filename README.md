@@ -19,7 +19,7 @@ View or download book in [here](https://www.dropbox.com/s/cqp9hd577tanul6/Le-Min
 * [Recursion and recursive algorithm](Recursion)
 * [Data structure represents list](LinkedList)
 * [Stacks and queues](Stacks%20and%20Queues)
-* Tree
+* [Tree](Tree)
 * Prefix, intermediate and suffix notation
 * Sort
 * Search
