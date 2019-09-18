@@ -21,7 +21,7 @@ View or download book in [here](https://www.dropbox.com/s/cqp9hd577tanul6/Le-Min
 * [Stacks and queues](Stacks%20and%20Queues)
 * [Tree](Tree)
 * [Prefix, intermediate and suffix notation](Pre-In-Post%20Fix)
-* Sort
+* [Sort](Sort)
 * Search
 
 ### PART 3 - ACTION PLAN
