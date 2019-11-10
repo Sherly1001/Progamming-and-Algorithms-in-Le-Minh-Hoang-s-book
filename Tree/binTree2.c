@@ -70,25 +70,24 @@ int rightChild(const tree *t) {
     return rc;
 }
 
-
 int _pt(const tree *t, int isLeft, int offset, int depth, char **b) {
     if (!t) return 0;
-    
+
     char bf[20];
     int width = 5;
     sprintf(bf, "(%03d)", t->val);
     int left = _pt(t->left, 1, offset, depth + 1, b);
     int right = _pt(t->right, 0, offset + left + width, depth + 1, b);
 
-    for (int i = 0; i < width; i++)
-        b[depth][offset + left + i] = bf[i];
+    for (int i = 0; i < width; i++) b[depth][offset + left + i] = bf[i];
+
     if (depth && isLeft) {
         for (int i = 0; i < width + right; i++)
             b[depth - 1][offset + left + width / 2 + i] = 0xc4;
         b[depth - 1][offset + left + width / 2] = 0xda;
     } else if (depth) {
-        for (int i = 0; i < width + left; i++)
-            b[depth - 1][offset - width / 2 + i] = 0xc4;
+        for (int i = 0; i < left + width / 2; i++)
+            b[depth - 1][offset + i] = 0xc4;
         b[depth - 1][offset + left + width / 2] = 0xbf;
     }
     return left + width + right;
